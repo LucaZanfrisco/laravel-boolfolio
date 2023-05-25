@@ -31,4 +31,4 @@ nome repo 2: `vite-boolfolio`
 - [x] Stampiamo in console i risultati e verifichiamo di ricevere i dati correttamente.
 
 **Milestone 5**  
-- [ ] Creiamo un nuovo componente ProjectCard, che corrisponde ad una card per visualizzare un progetto. Utilizziamo questo componente per visualizzare tutti i progetti ricevuti tramite API.
+- [x] Creiamo un nuovo componente ProjectCard, che corrisponde ad una card per visualizzare un progetto. Utilizziamo questo componente per visualizzare tutti i progetti ricevuti tramite API.
