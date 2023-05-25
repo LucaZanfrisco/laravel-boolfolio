@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import * as bootstrap from 'bootstrap'
+import * as bootstrap from 'bootstrap';
 import './assets/scss/main.scss';
 
 
