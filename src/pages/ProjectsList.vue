@@ -10,7 +10,7 @@ export default {
       return {
         projects: [],
         error: null,
-        apiProject : 'projects',
+        apiProject : 'projects/',
         apiUrl: 'http://127.0.0.1:8000/api/',
       }
     },

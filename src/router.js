@@ -2,6 +2,7 @@ import { createRouter , createMemoryHistory } from "vue-router";
 
 import AppHome from './pages/AppHome.vue';
 import ProjectsList from './pages/ProjectsList.vue';
+import SingleProject from './pages/SingleProject.vue';
 
 const router = createRouter ({
     history: createMemoryHistory(),
@@ -15,6 +16,11 @@ const router = createRouter ({
             path: '/projects',
             name: 'projects',
             component: ProjectsList
+        },
+        {
+            path: '/projects/:slug',
+            name: 'project',
+            component: SingleProject,
         },
     ]
 });
