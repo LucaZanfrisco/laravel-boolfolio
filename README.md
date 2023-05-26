@@ -14,21 +14,19 @@ Per usare il template usare:
 # Laravel portfolio
 
 **Milestone 1**  
-nome repo 1: `laravel-api`  
-- [x] Aggiungiamo al nostro progetto Laravel una nuovo Api/ProjectController.  
-- [x] Questo controller risponderà a delle richieste via API e si occuperà di restituire la lista dei progetti presenti nel database in formato json.
-
-**Milestone 2**    
-- [x] Testiamo la chiamata API tramite Postman e assicuriamoci di ricevere i dati correttamente.
-
-**Milestone 3**  
 nome repo 2: `vite-boolfolio`  
 - [x] Iniziamo ad occuparci della parte front-office della nostra applicazione: creiamo un nuovo progetto Vue 3 con Vite e installiamo axios.  
 - [x] Colleghiamo questo progetto ad una repo separata.
 
-**Milestone 4**  
+**Milestone 2**  
 - [x] Nel componente principale della nostra Vue App facciamo una chiamata API all’endpoint costruito nel progetto Laravel (milestone 1) e recuperiamo tutti i progetti dal nostro back-end.  
 - [x] Stampiamo in console i risultati e verifichiamo di ricevere i dati correttamente.
 
-**Milestone 5**  
+**Milestone 3**  
 - [x] Creiamo un nuovo componente ProjectCard, che corrisponde ad una card per visualizzare un progetto. Utilizziamo questo componente per visualizzare tutti i progetti ricevuti tramite API.
+
+**Milestone 4**
+- [ ] vue router  
+- [ ] creazione rotte (router.js)  
+- [ ] creazione pagine  
+- [ ] creazione rotta parametrica e pagina di dettaglio del progetto navigazione tra le pagine  
