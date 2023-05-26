@@ -5,8 +5,12 @@
                 <h1>BoolFolio</h1>
                 <nav>
                     <ul class="list-unstyled d-flex gap-5 m-0">
-                        <li>Home</li>
-                        <li>Progetto</li>
+                        <li>
+                            <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
+                        </li>
+                        <li>
+                            <router-link :to="{ name: 'projects' }" class="nav-link">Progetti</router-link>
+                        </li>
                         <li>Contatti</li>
                     </ul>
                 </nav>
