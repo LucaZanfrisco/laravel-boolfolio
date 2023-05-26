@@ -12,7 +12,7 @@
                 <h6 v-for="technology in projects.technologies"><span class="badge bg-dark p-2">{{
                     technology.nome }}</span></h6>
             </div>
-            <router-link :to="{ name: 'project', params: { slug: projects.slug }}" class="btn btn-success">Dettaglio</router-link>
+            <router-link :to="{ name: 'project', params: { slug: projects.slug }}" class="btn btn-success my-3 w-100">Dettaglio</router-link>
         </div>
     </div>
 </template>
