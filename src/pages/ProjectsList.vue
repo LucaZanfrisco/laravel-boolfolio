@@ -1,6 +1,8 @@
 <script>
 import axios from 'axios';
 import ProjectCard from '../components/ProjectCard.vue';
+import store from '../store';
+
 export default {
     name: 'ProjectsList',
     components: {
@@ -8,15 +10,14 @@ export default {
     },
     data(){
       return {
+        store,
         projects: [],
         error: null,
-        apiProject : 'projects/',
-        apiUrl: 'http://127.0.0.1:8000/api/',
       }
     },
     methods: {
       getProjects(){
-        axios.get(this.apiUrl + this.apiProject)
+        axios.get(`${this.store.apiURL}projects`)
         .then((response) => {
           this.projects = response.data.results;
         })
