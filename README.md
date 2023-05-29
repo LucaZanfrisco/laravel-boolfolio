@@ -39,4 +39,4 @@ nome repo 2: `vite-boolfolio`
 
 **Milestone 6**
 - [ ] Creare un sistema di paginazione dei progetti
-- [ ] Creare un file .env per la gestione dell'url API
+- [x] Creare un file .env per la gestione dell'url API

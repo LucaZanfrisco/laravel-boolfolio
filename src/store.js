@@ -1,7 +1,7 @@
 import { reactive } from "vue";
 
 const store = reactive({
-    apiURL: "http://127.0.0.1:8000/api/"
+    apiURL: import.meta.env.VITE_API_BASE_URL,
 });
 
 export default store;
