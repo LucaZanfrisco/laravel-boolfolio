@@ -11,9 +11,14 @@
                         <li>
                             <router-link :to="{ name: 'projects' }" class="nav-link">Progetti</router-link>
                         </li>
-                        <li>Contatti</li>
                         <li>
                             <router-link :to="{ name: 'techs' }" class="nav-link">Tecnologie</router-link>
+                        </li>
+                        <li>
+                            <router-link :to="{ name: 'types' }" class="nav-link">Tipologie</router-link>
+                        </li>
+                        <li>
+                            Contatti
                         </li>
                     </ul>
                 </nav>
