@@ -1,5 +1,6 @@
 <script>
 import axios from 'axios';
+import store from '../store';
 import ProjectCard from '../components/ProjectCard.vue';
 
 export default {
@@ -9,15 +10,15 @@ export default {
     },
     data() {
         return {
+            store,
             project: [],
             error: null,
-            apiProject: 'projects/',
-            apiUrl: 'http://127.0.0.1:8000/api/',
         }
     },
     methods: {
         getProject() {
-            axios.get(this.apiUrl + this.apiProject + this.$route.params.slug).then((response) => {
+            axios.get(`${this.store.apiURL}projects/${this.$route.params.slug}`)
+            .then((response) => {
                 if (response.data.success) {
                     this.project = response.data.result;
                 } else {
