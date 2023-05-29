@@ -1,6 +1,8 @@
 <template>
     <div class="container">
-        <span class="badge bg-success fs-5 my-5 mx-2 p-2" v-for="typo in types">{{ typo.nome  }} </span>
+        <span class="badge bg-success fs-5 my-5 mx-2 p-2" v-for="typo in types">
+            <router-link class="nav-link" :to="{ name: 'type', params: { slug : typo.slug } }">{{ typo.nome }}</router-link>
+        </span>
     </div>
 </template>
 

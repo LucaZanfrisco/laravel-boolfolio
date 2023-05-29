@@ -32,8 +32,8 @@ nome repo 2: `vite-boolfolio`
 - [x] creazione rotta parametrica e pagina di dettaglio del progetto navigazione tra le pagine  
 
 **Milestone 5**
-- [ ] Pagina 404
-- [ ] Pagina tipologia con progetti relazionati
+- [x] Pagina 404
+- [x] Pagina tipologia con progetti relazionati
 - [ ] Pagina tecnologie con progetti relazionati
 - [ ] Collegamento tra le varie pagine
 
