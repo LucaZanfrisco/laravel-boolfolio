@@ -30,3 +30,13 @@ nome repo 2: `vite-boolfolio`
 - [x] creazione rotte (router.js)  
 - [x] creazione pagine  
 - [x] creazione rotta parametrica e pagina di dettaglio del progetto navigazione tra le pagine  
+
+**Milestone 5**
+- [ ] Pagina 404
+- [ ] Pagina tipologia con progetti relazionati
+- [ ] Pagina tecnologie con progetti relazionati
+- [ ] Collegamento tra le varie pagine
+
+**Milestone 6**
+- [ ] Creare un sistema di paginazione dei progetti
+- [ ] Creare un file .env per la gestione dell'url API
