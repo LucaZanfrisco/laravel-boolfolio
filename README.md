@@ -34,8 +34,8 @@ nome repo 2: `vite-boolfolio`
 **Milestone 5**
 - [x] Pagina 404
 - [x] Pagina tipologia con progetti relazionati
-- [ ] Pagina tecnologie con progetti relazionati
-- [ ] Collegamento tra le varie pagine
+- [x] Pagina tecnologie con progetti relazionati
+- [x] Collegamento tra le varie pagine
 
 **Milestone 6**
 - [ ] Creare un sistema di paginazione dei progetti

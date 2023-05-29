@@ -4,11 +4,12 @@
             <router-link :to="{ name: 'types' }" class="btn btn-sm btn-danger">&leftarrow; Tipologie</router-link>
             <h2>{{ projectTypo[0].nome }}</h2>
         </div>
-        <ul class="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 gy-4">
+        <ul class="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 gy-4" v-if="projectTypo[0].projects.length > 0">
             <li class="col col-md-4" v-for="project in projectTypo[0].projects">
                 <ProjectCard :projects="project"></ProjectCard>
             </li>
         </ul>
+        <div v-else class="alert alert-danger">Nessun Proggetto con la tipologia {{ projectTypo[0].nome }}</div>
     </div>
 </template>
 
