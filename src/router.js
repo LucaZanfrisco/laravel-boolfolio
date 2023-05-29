@@ -29,7 +29,7 @@ const router = createRouter ({
         },
         {
             path: '/technologies',
-            name: 'tech',
+            name: 'techs',
             component: TechsPage,
         },
         {
@@ -44,7 +44,7 @@ const router = createRouter ({
         },
         {
             path: '/types/:slug',
-            name: 'types',
+            name: 'type',
             component: SingleType,
         },
         {
