@@ -17,7 +17,13 @@ export default {
     },
     methods: {
         sendContact() {
-            axios.post(`${this.store.apiURL}contact`, this.formData )
+            const data = {
+                name : this.formData.name,
+                email: this.formData.email,
+                messagge: this.formData.messagge,
+            };
+
+            axios.post(`${this.store.apiURL}lead`, data)
             .then((response) => {
                 console.log(response);
             })
