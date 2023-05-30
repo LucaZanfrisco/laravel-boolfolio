@@ -11,7 +11,8 @@ export default {
                 name: '',
                 email: '',
                 messagge: '',
-            }
+            },
+            error: null,
 
         }
     },
@@ -26,7 +27,13 @@ export default {
             axios.post(`${this.store.apiURL}lead`, data)
             .then((response) => {
                 console.log(response);
+                if(response.status === 200){
+                    this.formData.name = '';
+                    this.formData.email = '';
+                    this.formData.messagge = '';
+                }
             })
+            
         }
     }
 }
