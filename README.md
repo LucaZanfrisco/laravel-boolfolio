@@ -42,7 +42,7 @@ nome repo 2: `vite-boolfolio`
 - [x] Creare un file .env per la gestione dell'url API
 
 **Milestone 7**
-- [ ] Create un form di contatto all'interno del vostro progetto frontend comprensivo di 3 campi: nome,email e messaggio
+- [x] Create un form di contatto all'interno del vostro progetto frontend comprensivo di 3 campi: nome,email e messaggio
 
 ---
 
