@@ -18,7 +18,7 @@
                             <router-link :to="{ name: 'types' }" class="nav-link">Tipologie</router-link>
                         </li>
                         <li>
-                            Contatti
+                            <router-link :to="{ name: 'contact' }" class="nav-link">Contatto</router-link>
                         </li>
                     </ul>
                 </nav>

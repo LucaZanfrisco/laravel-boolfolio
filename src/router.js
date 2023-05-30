@@ -8,6 +8,7 @@ import TechsPage from './pages/TechsPage.vue';
 import SingleTech from './pages/SingleTech.vue';
 import TypesPage from './pages/TypesPage.vue';
 import SingleType from './pages/SingleType.vue';
+import ContactPage from './pages/ContactPage.vue';
 
 const router = createRouter ({
     history: createWebHistory(),
@@ -46,6 +47,11 @@ const router = createRouter ({
             path: '/types/:slug',
             name: 'type',
             component: SingleType,
+        },
+        {
+            path: '/contact',
+            name: 'contact',
+            component: ContactPage,
         },
         {
             path: '/:pathMatch(.*)*',
