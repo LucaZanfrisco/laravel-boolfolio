@@ -40,3 +40,13 @@ nome repo 2: `vite-boolfolio`
 **Milestone 6**
 - [x] Creare un sistema di paginazione dei progetti
 - [x] Creare un file .env per la gestione dell'url API
+
+**Milestone 7**
+- [ ] Create un form di contatto all'interno del vostro progetto frontend comprensivo di 3 campi: nome,email e messaggio
+
+---
+
+## Funzionamento
+A frontend viene inserito un nuovo messaggio.
+Il messaggio viene salvato nella tabella leads e il sistema (backend + Mailtrap) invia una mail di notifica ricezione del messaggio.
+

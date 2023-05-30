@@ -48,7 +48,7 @@ export default {
 <template>
   <div class="container my-5">
     <ul class="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 gy-4">
-      <li class="col col-md-4" v-for="project in projectsForPage.data">
+      <li class="col col-md-4 d-flex" v-for="project in projectsForPage.data">
         <ProjectCard :projects="project"></ProjectCard>
       </li>
     </ul>

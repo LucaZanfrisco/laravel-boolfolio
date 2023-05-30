@@ -3,7 +3,7 @@
         <span class="badge bg-primary my-5 mx-2 fs-5 p-2" v-for="technology in technologies"
             @click="getProjectTech(technology.slug)">{{ technology.nome }}</span>
         <ul class="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 gy-4" v-if="projectTech.length > 0">
-            <li class="col col-md-4" v-for="project in projectTech">
+            <li class="col col-md-4 d-flex" v-for="project in projectTech">
                 <ProjectCard :projects="project"></ProjectCard>
             </li>
         </ul>
@@ -26,9 +26,9 @@ export default {
         return {
             store,
             enter : true,
-            technologies: [],
+            technologies: null,
             error: null,
-            projectTech: [],
+            projectTech: []
         }
     },
     methods: {
@@ -46,7 +46,7 @@ export default {
             this.projectTech = [];
             axios.get(`${this.store.apiURL}technologies/${slug}`)
                 .then((response) => {
-                    this.projectTech = response.data.result[0].projects;
+                    this.projectTech = response.data.result.projects;
                 })
         }
     },
