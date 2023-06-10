@@ -36,10 +36,15 @@ export default {
 <style lang="scss" scoped>
 
 header{
-    background-color: #333;
     padding: 32px;
     color: white;
-    
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 6.25rem;
+    z-index: 1;
+    background-color: black;
 }
 .container{
     nav{
